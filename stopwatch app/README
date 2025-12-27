@@ -1,0 +1,56 @@
+# Digital Stopwatch
+
+A simple, elegant digital stopwatch built with HTML, CSS, and JavaScript. It provides basic timing functionality with a modern interface, including start, pause/resume, and reset features.
+
+## Demo
+
+You can try the stopwatch by opening `index.html` in your web browser.
+
+## Features
+
+- **Start Timing**: Begin the stopwatch with the 'Start' button.
+- **Pause/Resume**: Temporarily stop and resume timing with the 'Pause' button (toggles to 'Resume' when paused).
+- **Reset**: Clear the timer back to 00:00:00 with the 'Reset' button.
+- **Real-Time Display**: Shows elapsed time in HH:MM:SS format, updating every 100ms.
+- **Button States**: Buttons are dynamically enabled/disabled based on the stopwatch state.
+- **Responsive Design**: Adapts to different screen sizes, including mobile devices.
+- **Smooth Transitions**: Button hover and click effects for a polished user experience.
+
+## Installation
+
+1. Clone or download the repository.
+2. Open `index.html` in any modern web browser (e.g., Chrome, Firefox, Safari).
+
+No additional dependencies or setup required – it's pure vanilla JavaScript!
+
+## Usage
+
+- Click 'Start' to begin timing.
+- Click 'Pause' to stop the timer temporarily (button changes to 'Resume').
+- Click 'Resume' to continue from where it paused.
+- Click 'Reset' to stop and reset the timer to 00:00:00.
+
+The display updates in real-time while running.
+
+## Technologies Used
+
+- **HTML5**: Structure of the stopwatch interface.
+- **CSS3**: Styling, gradients, transitions, and responsive layout.
+- **JavaScript (ES6)**: Logic for timing, event handling, and DOM updates.
+
+## Project Structure
+
+- `index.html`: Main HTML file containing the stopwatch layout.
+- `script.js`: JavaScript code for stopwatch functionality.
+- `style.css`: CSS styles for design and interactions.
+
+## Limitations
+
+- No support for lap times or split timing.
+- Time display is in seconds only (no milliseconds).
+- No keyboard shortcuts.
+- Basic functionality; does not persist time across page reloads.
+
+## License
+
+This project is open-source and available under the MIT License. Feel free to use, modify, or distribute it.
